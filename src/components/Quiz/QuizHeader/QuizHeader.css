@@ -1,0 +1,11 @@
+.quiz-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21809B;
+}
+
+.quiz-header h2 {
+    color: #fff;
+    font-size: 50px;
+}

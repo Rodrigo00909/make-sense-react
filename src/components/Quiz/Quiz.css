@@ -1,0 +1,52 @@
+html {
+    background: url("../../assets/images/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quiz-main {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.quiz-main-div {
+    padding: 60px 0 15% 0;
+}
+
+.quiz-main-img {
+    margin: 0 auto;
+    width: 280px;
+}
+
+.quiz-main-div {
+    margin-top: 20px;
+}
+
+.quiz-main-div p {
+    font-size: 30px;
+    color: #fff;
+}
+
+.quiz-main-div-p3 {
+    padding-left: 30px;
+}
+
+.quiz-main-div-p3 img {
+    width: 28px;
+}
+
+
+/* @media (min-widht: 1000px) {
+    .quiz-main {
+        padding: 130 px 0 0 0;
+    }
+
+    footer {
+        position: relative !important;
+    }
+} */
