@@ -2,18 +2,24 @@ import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import Quiz from './components/Quiz/Quiz';
+import Foro from './pages/Foro/Foro';
+import QuizDatos from './components/Quiz/QuizDatos/QuizDatos';
+import Home2 from './pages/Home2/Home2';
+
 
 
 import './App.css';
-import Foro from './pages/Foro/Foro';
 
 function App() {
   return (
     <div>
       <Foro />
       {/* <Register />
-      <Login />
-      <Quiz /> */}
+      <Login /> */}
+      {/* <Quiz /> */}
+      {/* <QuizDatos /> */}
+      {/* <Home2 /> */}
+
     </div>
   );
 }

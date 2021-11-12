@@ -1,0 +1,608 @@
+@media screen,
+(min-width: 320px) and (max-width: 767px) {
+    .back_nav {
+        height: auto;
+        background: #0D3944;
+    }
+
+    .item-nav {
+        font-size: 0.75em;
+    }
+
+    .ul-mobile {
+        width: 100%;
+    }
+
+    .ul-mobile li {
+        width: 50%;
+        text-align: center;
+    }
+
+    .nav-item a {
+        color: #FFFFFF;
+    }
+
+    .nav-item a:hover {
+        color: #FCF6A0;
+    }
+
+    #logo {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .navbar-brand {
+        max-width: 100%;
+    }
+
+    #banner {
+        width: 100%;
+        height: auto;
+        left: 0px;
+    }
+
+    #banner img {
+        width: 100%;
+        height: 10em;
+        object-fit: cover;
+    }
+
+    #contenedor_hold {
+        height: max-content;
+    }
+
+    #hold-up {
+        max-height: 100%;
+        max-width: 100%;
+        margin-left: 5%;
+    }
+
+    .hold {
+        width: 100%;
+        height: 65px;
+        left: 0px;
+        padding: 1em 0;
+    }
+
+    .text_center {
+        font-size: 1em;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        margin: 1em 12%;
+    }
+
+    .text_hold {
+        width: 100%;
+        height: max-content;
+    }
+
+    #btn_emprendedor-ciudadano {
+        display: block;
+    }
+
+    #emprendedor,
+    #ciudadano {
+        width: 100%;
+        height: auto;
+    }
+
+    .ocultar-mobile {
+        opacity: 0;
+        position: absolute;
+    }
+
+    #emprendedor img {
+        /*   background-color: #196C84; */
+        width: 100%;
+    }
+
+    #ciudadano img {
+        /* background-color: #70AF90; */
+        width: 100%;
+    }
+
+    .onu img {
+        margin: 2em auto;
+        display: block;
+    }
+
+    footer {
+        padding-top: 1em;
+        color: #FFFFFF;
+        background-color: #0D3944;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+
+/* ************************* */
+
+@media screen,
+(min-width: 768px) and (max-width: 1023px) {
+    .back_nav {
+        height: 5em;
+        background: #0D3944;
+    }
+
+    .nav-item a {
+        color: #FFFFFF;
+    }
+
+    .nav-item a:hover {
+        color: #FCF6A0;
+    }
+
+    #logo {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .navbar-brand {
+        max-width: 20%;
+    }
+
+    #banner {
+        width: 100%;
+        height: auto;
+        left: 0px;
+    }
+
+    #banner img {
+        /*  width: 100%; */
+        width: 100%;
+        height: 15em;
+        object-fit: cover;
+    }
+
+    #contenedor_hold {
+        height: max-content;
+    }
+
+    #hold-up {
+        max-height: 100%;
+        max-width: 100%;
+        margin-left: 5%;
+    }
+
+    .hold {
+        width: 100%;
+        height: 75px;
+        left: 0px;
+        padding: 1em 0;
+    }
+
+    .text_center {
+        font-size: 1.3em;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin: 1em 12%;
+    }
+
+    .text_hold {
+        width: 100%;
+        height: max-content;
+    }
+
+    #btn_emprendedor-ciudadano {
+        display: flex;
+    }
+
+    #emprendedor,
+    #ciudadano {
+        width: 50%;
+        height: auto;
+    }
+
+    #emprendedor img:hover,
+    #ciudadano img:hover {
+        opacity: 0;
+
+    }
+
+    #emprendedor img {
+        /*   background-color: #196C84; */
+        float: left;
+        width: 50%;
+        position: absolute;
+    }
+
+    #ciudadano img {
+        /* background-color: #70AF90; */
+        float: right;
+        width: 50%;
+        position: absolute;
+    }
+
+    .onu {
+        margin-top: 17em;
+        height: auto;
+    }
+
+    .onu img {
+        margin: 2em auto;
+        display: block;
+    }
+
+    footer {
+        padding-top: 50px;
+        color: #FFFFFF;
+        background-color: #0D3944;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+/* ************************** */
+@media screen,
+(min-width: 1024px) and (max-width: 1439px) {
+    .back_nav {
+        height: auto;
+        background: #0D3944;
+    }
+
+    .nav-item a {
+        color: #FFFFFF;
+        font-size: 1.5em;
+    }
+
+    .nav-item a:hover {
+        color: #FCF6A0;
+    }
+
+    #logo {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .navbar-brand {
+        max-width: 20%;
+    }
+
+    #banner {
+        width: 100%;
+        height: auto;
+        left: 0px;
+    }
+
+    #banner img {
+        /*  width: 100%; */
+        width: 100%;
+        height: 21em;
+        object-fit: cover;
+    }
+
+    #contenedor_hold {
+        height: max-content;
+    }
+
+    #hold-up {
+        max-height: 100%;
+        max-width: 100%;
+        margin-left: 5%;
+    }
+
+    .hold {
+        width: 100%;
+        height: 75px;
+        left: 0px;
+        padding: 1em 0;
+    }
+
+    .text_center {
+        font-size: 24px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin: 1em 12%;
+    }
+
+    .text_hold {
+        width: 100%;
+        height: max-content;
+    }
+
+    #btn_emprendedor-ciudadano {
+        display: flex;
+    }
+
+    #emprendedor,
+    #ciudadano {
+        width: 50%;
+        height: auto;
+    }
+
+    #emprendedor img {
+        /*   background-color: #196C84; */
+        float: left;
+        width: 50%;
+        position: absolute;
+    }
+
+    #emprendedor img:hover,
+    #ciudadano img:hover {
+        opacity: 0;
+
+    }
+
+    #ciudadano img {
+        /* background-color: #70AF90; */
+        float: right;
+        width: 50%;
+        position: absolute;
+    }
+
+    .onu {
+        margin-top: 20em;
+        height: auto;
+    }
+
+    .onu img {
+        margin: 2em auto;
+        display: block;
+    }
+
+    footer {
+        padding-top: 50px;
+        color: #FFFFFF;
+        background-color: #0D3944;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+/* ********************** */
+/****** DESKTOP ********/
+@media screen,
+(min-width: 1440px) and (max-width: 1799px) {
+    .back_nav {
+        height: auto;
+        background: #0D3944;
+    }
+
+    .nav-item a {
+        color: #FFFFFF;
+        font-size: 1.5em !important;
+    }
+
+    .nav-item a:hover {
+        color: #FCF6A0;
+    }
+
+    #logo {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .navbar-brand {
+        max-width: 20%;
+    }
+
+    #banner {
+        /* background-color: #196C84; */
+        width: 100%;
+    }
+
+    #banner img {
+        width: 100%;
+        height: 29em;
+        object-fit: cover;
+    }
+
+    #contenedor_hold {
+        height: max-content;
+    }
+
+    #hold-up {
+        max-height: 100%;
+        max-width: 100%;
+        margin-left: 5%;
+    }
+
+    .hold {
+        width: 100%;
+        height: 7em !important;
+        left: 0px;
+        padding: 1em 0;
+    }
+
+    .text_center {
+        font-size: 2em !important;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin: 1em 12%;
+    }
+
+    .text_hold {
+        width: 100%;
+        height: max-content;
+    }
+
+    #btn_emprendedor-ciudadano {
+        display: flex;
+    }
+
+    #emprendedor,
+    #ciudadano {
+        width: 50%;
+        height: auto;
+    }
+
+    #emprendedor img {
+        /*   background-color: #196C84; */
+        float: left;
+        width: 50%;
+        position: absolute;
+    }
+
+    #emprendedor img:hover,
+    #ciudadano img:hover {
+        opacity: 0;
+
+    }
+
+    #ciudadano img {
+        /* background-color: #70AF90; */
+        float: right;
+        width: 50%;
+        position: absolute;
+    }
+
+    .onu {
+        margin-top: 25em;
+        height: auto;
+    }
+
+    .onu img {
+        margin: 5em auto;
+        display: block;
+
+    }
+
+    footer {
+        padding-top: 50px;
+        color: #FFFFFF;
+        background-color: #0D3944;
+    }
+
+}
+
+/* *************************************** */
+
+.back_nav {
+    height: auto;
+    background: #0D3944;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    font-size: 4em;
+}
+
+.nav-item a:hover {
+    color: #FCF6A0;
+}
+
+#logo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container {
+    margin-left: 5% !important;
+    max-width: 90% !important;
+}
+
+.navbar-brand {
+    max-width: 30%;
+}
+
+#banner {
+    width: 100%;
+}
+
+#banner img {
+    /* width: 100%; */
+    width: 100%;
+    height: 38em;
+    object-fit: cover;
+}
+
+#contenedor_hold {
+    height: max-content;
+}
+
+#hold-up {
+    height: 7em;
+    max-width: 100%;
+    margin-left: 5%;
+}
+
+.hold {
+    width: 100%;
+    height: 10em;
+    left: 0px;
+    padding: 1em 0;
+}
+
+.text_center {
+    font-size: 5em;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 1em 12%;
+}
+
+.text_hold {
+    width: 100%;
+    height: max-content;
+}
+
+#btn_emprendedor-ciudadano {
+    display: flex;
+}
+
+#emprendedor,
+#ciudadano {
+    width: 50%;
+    height: auto;
+}
+
+#emprendedor img {
+    /*   background-color: #196C84; */
+    float: left;
+    width: 50%;
+    position: absolute;
+}
+
+#emprendedor img:hover,
+#ciudadano img:hover {
+    opacity: 0;
+
+}
+
+#ciudadano img {
+    /* background-color: #70AF90; */
+    float: right;
+    width: 50%;
+    position: absolute;
+}
+
+.onu {
+    margin-top: 35em;
+    height: auto;
+}
+
+.onu img {
+    width: 60%;
+    margin: 5em auto;
+    display: block;
+
+}
+
+footer {
+    padding-top: 50px;
+    color: #FFFFFF;
+    background-color: #0D3944;
+}
