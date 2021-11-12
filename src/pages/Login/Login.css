@@ -86,7 +86,7 @@ input {
 }
 
 .login-reg-section-reg {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
     background: #196C84;
     text-transform: uppercase;
@@ -99,7 +99,7 @@ input {
 .regButton {
     width: 45%;
     color: #ffffff;
-    height: 32px;
+    height: 40px;
     border-radius: 10px !important;
     width: 230px !important;
     border: 1px solid;
@@ -112,7 +112,6 @@ input {
     height: 25px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
     font-size: 13px;
     border: 2px solid #196C84;
     background-color: #D3E6EB;

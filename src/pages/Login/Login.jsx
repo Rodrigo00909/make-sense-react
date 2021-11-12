@@ -7,6 +7,7 @@ const Login = () => {
     return (
         <div>
             <Navbar />
+            <section className="login-aside"></section>
             <div className="login">
                 <section className="login-form">
                     <div className="login-container">

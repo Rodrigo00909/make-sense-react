@@ -1,20 +1,19 @@
 import React from 'react';
 
-import Relog from '../../../assets/images/relog.png'
+import BannerMakeSense from '../../../assets/images/LogoMakeSenseBlanco.png'
+
 
 import './QuizFooter.css';
 
 const QuizFooter = () => {
     return (
         <div>
-            <footer className="quiz-footer">
-                <p> <img className="quiz-footer-p-img" src={Relog} alt="relog" /> Toma 2 min</p>
+            <footer className='quiz-footer'>
                 <div className="quiz-footer-div">
-                    <button>Comenzar</button>
-                    <p>Pulsa Enter</p>
+                    <img src={BannerMakeSense} alt="" />
                 </div>
             </footer>
-        </div>
+        </div >
     )
 }
 

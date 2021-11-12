@@ -1,0 +1,54 @@
+.foro-section {
+    margin: 20px 0 0px 0;
+}
+
+.foro-section-publ {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.foro-section-publ-img {
+    width: 160px;
+    border-radius: 70px;
+}
+
+.foro-section-publ-descrip {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    justify-items: start;
+    margin: 0 0 0 20px;
+}
+
+.foro-section-publ-descrip h4 {
+    padding-top: 25px;
+}
+
+.foro-section-publ-descrip-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.foro-section-publ-descrip-button button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: #196C84;
+    text-transform: uppercase;
+    width: 45%;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 10px !important;
+    width: 230px !important;
+    border: 1px solid;
+    letter-spacing: 1px;
+    padding: 0px 45px;
+    cursor: pointer;
+}
+
+.foro-section-publ-descrip-button button:hover {
+    background: #2186a1;
+}

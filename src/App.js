@@ -3,13 +3,17 @@ import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import Quiz from './components/Quiz/Quiz';
 
+
 import './App.css';
+import Foro from './pages/Foro/Foro';
 
 function App() {
   return (
     <div>
-      <Login />
-      {/* <Quiz /> */}
+      {/* <Foro /> */}
+      {/* <Register /> */}
+      {/* <Login /> */}
+      <Quiz />
     </div>
   );
 }

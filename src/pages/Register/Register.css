@@ -1,5 +1,17 @@
 .register {
-    margin-top: 20px;
+    display: flex;
+    /*     justify-content: center;
+    align-items: center; */
+}
+
+.register-aside {
+    width: 50%;
+    background-color: #196C84;
+}
+
+.register-form {
+    width: 50%;
+    padding: 170px 0 170px 0;
 }
 
 .register-container {
@@ -13,37 +25,23 @@
     justify-content: center;
 }
 
-.register-title h1 {
-    color: rgb(37, 37, 37);
-    font-size: 65px;
-    font-weight: 800;
-    line-height: 56px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    padding: 0;
-}
-
-.register-title h1 span {
-    color: #70AF90;
-}
-
 .register-reg-section {
     display: grid;
     align-items: center;
     justify-items: center;
     background-color: #ffffff;
-    border: 1px solid #e5e5e5;
     margin: 0 auto;
-    width: 60%;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 14px 28px rgb(0 0 0 / 25%),
-        0 10px 10px rgb(0 0 0 / 22%);
+    width: 100%;
+    /* border: 1px solid #e5e5e5; */
+    /*     box-shadow: 0 14px 28px rgb(0 0 0 / 25%),
+        0 10px 10px rgb(0 0 0 / 22%); */
 }
 
 .register-reg-section h2 {
     letter-spacing: 1px;
+    font-size: 30px;
     color: rgb(37, 37, 37);
+    font-weight: 600;
 }
 
 .register-reg-section label {
@@ -75,51 +73,62 @@ input {
     background: none;
 }
 
-.register-reg-section-alreadylog {
+.register-reg-section-forgotpass {
     margin-top: 15px;
     text-align: center;
     font-size: 12px;
     color: #cfcfcf;
+    cursor: pointer;
+}
+
+.register-reg-section-forgotpass a:hover {
+    color: #a0a0a0;
 }
 
 .register-reg-section-reg {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    background: #70AF90;
+    background: #196C84;
     text-transform: uppercase;
 }
 
-.regButton,
-.googleButtonReg {
-    display: block;
-    margin: 0 auto;
-    width: auto;
-    height: 36px;
-    border-radius: 20px;
+.register-reg-section-reg:hover {
+    background: #2186a1;
+}
+
+.regButton {
+    width: 45%;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 10px !important;
+    width: 230px !important;
     border: 1px solid;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
     letter-spacing: 1px;
     padding: 0px 45px;
     cursor: pointer;
-    transition: transform 80ms ease-in;
 }
 
-.regButton:active,
-.googleButtonReg:active {
-    transform: scale(0.95);
+.googleButton {
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+    border: 2px solid #196C84;
+    background-color: #D3E6EB;
+    color: #196C84;
+    width: auto;
+    border: 1px solid;
+    letter-spacing: 1px;
+    padding: 0px 45px;
+    cursor: pointer;
 }
 
 .regButton:focus,
-.googleButtonReg:focus {
+.googleButton:focus {
     outline: none;
 }
 
-.googleButtonReg {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 2 px solid #d3dae9;
-    background-color: #fff;
-    color: #8fa1c7;
+.googleButton:hover {
+    color: #7c92c4;
+    border: 2px solid #99a5c2;
 }
