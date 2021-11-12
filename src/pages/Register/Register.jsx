@@ -26,7 +26,7 @@ const Register = () => {
                         </label>
                         <p className="register-reg-section-alreadylog">¿Ya tienes cuenta? Inicia Sesión</p>
                         <button type="button" className="register-reg-section-reg regButton">Registrarse</button>
-                        <button type="button" className="googleButton">Conecta con <span>Google</span></button>
+                        <button type="button" className="googleButtonReg">Conecta con <span>Google</span></button>
                     </div>
                 </div>
             </section>

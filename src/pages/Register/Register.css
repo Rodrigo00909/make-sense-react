@@ -90,7 +90,7 @@ input {
 }
 
 .regButton,
-.googleButton {
+.googleButtonReg {
     display: block;
     margin: 0 auto;
     width: auto;
@@ -107,16 +107,16 @@ input {
 }
 
 .regButton:active,
-.googleButton:active {
+.googleButtonReg:active {
     transform: scale(0.95);
 }
 
 .regButton:focus,
-.googleButton:focus {
+.googleButtonReg:focus {
     outline: none;
 }
 
-.googleButton {
+.googleButtonReg {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 2 px solid #d3dae9;

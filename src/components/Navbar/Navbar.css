@@ -2,6 +2,7 @@
     /* position: fixed; */
     border-bottom: 1 px solid rgb(0 0 0 / 3%);
     animation: fixHeader .5s ease;
+    background-color: #0D3944;
 }
 
 .navbar-container {

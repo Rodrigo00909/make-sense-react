@@ -6,7 +6,7 @@ import {
     Link,
 } from 'react-router-dom';
 
-import LogoMakeSense from '../../assets/images/LogoMakeSense.png'
+import LogoMakeSense from '../../assets/images/LogoMakeSenseBlanco.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -17,11 +17,11 @@ const Navbar = () => {
                     <div className="navbar-logo">
                         <img className="navbar-logo-img" src={LogoMakeSense} alt="MakeSense" />
                     </div>
-                    <div className="navbar-menu">
+                    {/* <div className="navbar-menu">
                         <a>login</a>
                         <a>register</a>
                         <a>menu3</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>

@@ -9,7 +9,7 @@ import QuizFooter from './QuizFooter/QuizFooter';
 
 const Quiz = () => {
     return (
-        <div>
+        <div class="quiz">
             <QuizHeader />
             <main className="quiz-main">
                 <img className="quiz-main-img" src={LogoMakeSense} alt="Logo Make Sense" />

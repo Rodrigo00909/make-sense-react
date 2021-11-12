@@ -1,6 +1,6 @@
-/* import Home from './pages/Home/Home';
+import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
-import Register from './pages/Register/Register'; */
+import Register from './pages/Register/Register';
 import Quiz from './components/Quiz/Quiz';
 
 import './App.css';
@@ -8,7 +8,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Quiz />
+      <Login />
+      {/* <Quiz /> */}
     </div>
   );
 }
