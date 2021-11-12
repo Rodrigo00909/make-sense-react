@@ -34,21 +34,15 @@
 }
 
 .foro-section-publ-descrip-button button {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background: #196C84;
-    text-transform: uppercase;
-    width: 45%;
-    color: #ffffff;
-    height: 40px;
-    border-radius: 10px !important;
-    width: 230px !important;
-    border: 1px solid;
-    letter-spacing: 1px;
-    padding: 0px 45px;
+    background: transparent;
+    border-style: none;
     cursor: pointer;
 }
 
 .foro-section-publ-descrip-button button:hover {
-    background: #2186a1;
+    color: rgb(99, 99, 99);
+}
+
+.foro-section-publ-descrip-button-icon {
+    font-size: 15px
 }

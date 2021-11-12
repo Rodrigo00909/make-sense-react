@@ -10,10 +10,10 @@ import Foro from './pages/Foro/Foro';
 function App() {
   return (
     <div>
-      {/* <Foro /> */}
-      {/* <Register /> */}
-      {/* <Login /> */}
-      <Quiz />
+      <Foro />
+      {/* <Register />
+      <Login />
+      <Quiz /> */}
     </div>
   );
 }

@@ -21,6 +21,21 @@
     padding: 25px 10px 25px 10px;
 }
 
+.filters-section-div-button {
+    text-align: right;
+}
+
+.filters-section-div-button button {
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+.filters-section-div-button button:hover {
+    color: rgb(99, 99, 99);
+}
+
+
 .filters-section-div-perfil {
     background-color: #77B08E;
     border-radius: 36px;
@@ -36,4 +51,10 @@
 
 .filters-section-div-perfil h3 {
     color:#fff;
+}
+
+.filters-section-div-filter {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
